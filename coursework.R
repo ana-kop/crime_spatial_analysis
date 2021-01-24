@@ -155,10 +155,3 @@ gwr.morantest(vehicle.gwr, vehicle.W)
 gwr.errors <-vehicle.gwr$SDF$gwr.e
 vehicle.shp$gwr.res <- gwr.errors
 tm_shape(vehicle.shp)+tm_polygons("gwr.res", palette="-RdBu", style="quantile")
-
-
-
-
-
-
-
